@@ -1,0 +1,171 @@
+body,div,p,h1,h2,h3,h4,h5,form,ul,span,img,form
+{
+	margin : 0;
+	padding : 0;
+	border:0;
+}
+
+header
+{
+	color:white;
+	height:120px;
+	background:#151A44;
+	width:100%;
+	z-index: 10;
+	position:fixed;
+}
+
+.reg
+{
+	margin-top: 10px;
+	word-spacing: 10px;
+	color:white;
+	list-style: none;
+	background-color: #151A44;
+	text-align: right;
+	overflow: auto;
+	
+}
+.reg img
+{
+	margin-left: 20px;
+	width: 240px;
+	height: 65px;
+	float: left;
+	overflow: auto;
+}
+
+
+.reg >li
+{
+	font-size: 20px;
+	display :inline-block;
+	padding :50px 20 50px 20;
+	margin-right: 25px;
+
+}
+
+.reg > li >a
+{
+	color :white;
+	text-decoration: none;
+}
+
+.reg :hover
+{
+	color :#151A44;
+	background-color: white;
+	border-radius: 10px;
+}
+
+
+
+.menu
+{
+	word-spacing: 20px;
+	color : white;
+	background-color : #151A44;
+	text-align : right;
+	list-style: none;
+	padding : 20px 10 20px 10;
+	padding-right: 50px;
+
+}
+
+
+
+.hlth
+{
+	word-spacing: 2px;
+}
+
+.menu >li
+{
+	margin-left: 50px;
+	font-size:30px;
+	display : inline-block;
+	padding : 20px 10 20px 10 ;
+}
+
+.menu >li >a
+{
+	color : white;
+	text-decoration: none;
+}
+
+.menu :hover
+{
+	color : #151A44;
+	background-color: white;
+	border-radius: 10px;
+
+}
+
+.banner
+{
+	width: 100%;
+	height: 340px;
+	position: relative;
+	top: 120px;
+	text-align: center;
+}
+
+.banner img
+{
+	width: 1350px;
+	height: 620px;
+}
+.content
+{
+	width: 100%;
+	position:relative;
+	top:400px;
+	background:#eee;
+	height:1500px;
+}
+
+.intro
+{
+	font-size: 40px;
+	font-family: cursive;
+	text-align: center;
+	text-orientation: all;
+}
+
+.copyright
+{
+	top: 300px;
+	width: 100%;
+	height: 700px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
