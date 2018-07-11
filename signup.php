@@ -4,7 +4,6 @@ include_once 'dbconn.php';
 
 if(isset($_POST["submit"]))
 {
-
 //$Id=$_POST["Id"];
 $FirstName=$_POST["FirstName"];
 $LastName=$_POST["LastName"];
