@@ -19,9 +19,7 @@ session_start();
 					<img src="logo.jpg" alt="logo" class="logo">
 				</a>
 			<li>
-				
 				<?php 
-
 				if(isset($_SESSION['username']))
 				{
 					echo '<a href="logout.php">Logout</a>';
@@ -37,9 +35,8 @@ session_start();
 		<div class="nav">
 		<ul class = "menu">
 			<li> <a href ="#">Home</a></li> 
-			<li> <a class="health" href ="login.html">My health</a></li>
+			<li> <a class="health" href ="profile.php">My health</a></li>
 			<li> <a href ="#">Services</a></li>
-			<li> <a href ="#">Sources</a></li>
 			<li> <a href ="#">Fitness</a></li>
 			<li> <a href ="#">Contact</a></li>
 			<li> <a href ="#">About</a></li>

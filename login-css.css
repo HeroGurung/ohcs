@@ -5,6 +5,16 @@ form {
     border-radius: 10px;
     margin-left: 345px;
 }
+body
+{
+    text-align: center;
+}
+
+.login-avatar
+{
+	text-align: left;
+	
+}
 
 /* Full-width inputs */
 input[type=text], input[type=password] {
@@ -41,19 +51,8 @@ button:hover {
     background-color: #f44336;
 }
 
-/* Center the avatar image inside this container */
-.imgcontainer { 
-    margin-top: 20px;
-    margin-left: 20px;
-    text-align: center;
-    margin: 30px 0 12px 10;
-}
-
 /* Avatar image */
-img.untitled {
-    width: 30%;
-    border-radius: 8px;
-}
+
 
 /* Add padding to containers */
 .container {
@@ -77,10 +76,6 @@ span.psw {
     }
 }
 
-body
-{
-    text-align: center;
-}
 
 .login-container
 {
